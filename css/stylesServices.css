@@ -1,0 +1,57 @@
+.navbar {
+  background-color: white;
+}
+.navbar .navbar-nav {
+  font-size: 1.2rem;
+}
+.navbar .navbar-nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar .navbar-nav li a {
+  color: black;
+}
+.navbar .navbar-nav li a:hover {
+  background: #dc3545;
+  color: white !important;
+}
+.navbar form {
+  margin-left: 300px;
+}
+.navbar form .btn {
+  background-color: #0C0B4F;
+  color: white;
+}
+.navbar form .btn:hover {
+  background-color: #0D26EC;
+  transition: all 300ms ease;
+  transform: scale(1.1);
+}
+
+.section-1 {
+  background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%), url("../assets/img/miyunk3.jpg");
+  background-position: center center;
+  height: 400px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-1 h3 {
+  font-size: 5.3rem;
+}
+.section-1 .rowed-2 p {
+  font-weight: 500;
+}
+.section-1 .rowed-2 .color-yellow {
+  color: #EBEC1B;
+}
+
+.section-3 h3 {
+  font-weight: 500;
+}
+
+footer {
+  background-color: #0B0E1B;
+}
+
+/*# sourceMappingURL=stylesServices.css.map */
