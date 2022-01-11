@@ -82,6 +82,10 @@
 .section-4 .form-contact label {
   font-weight: 500;
 }
+.section-4 .carousel .carousel-item img {
+  width: auto;
+  height: 350px;
+}
 
 .section-5 .container-jvc {
   height: 60vh;

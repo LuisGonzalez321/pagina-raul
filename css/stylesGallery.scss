@@ -35,7 +35,27 @@
 
 .section-1{
   background-color: #ECD8D8;
+}
 
+.section-2{
+  .carousel{
+    margin: auto 300px;
+    .carousel-item{
+      img{
+        width: auto;
+        height: 350px;
+      }
+    }
+  }
+}
+
+.section-3{
+  .row{
+    img{
+      width: 365px;
+      height: 205px;
+    }
+  }
 }
 
 footer{

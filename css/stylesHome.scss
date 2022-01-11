@@ -105,6 +105,15 @@
       font-weight: 500;
     }
   }
+
+  .carousel{
+    .carousel-item{
+      img{
+        width: auto;
+        height: 350px;
+      }
+    }
+  }
 }
 
 .section-5{
