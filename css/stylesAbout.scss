@@ -1,0 +1,86 @@
+
+.navbar{
+  background-color: white;
+
+  .navbar-nav{
+    font-size: 1.2rem;
+    li{
+      margin-left: 10px;
+      margin-right: 10px;
+      a{
+        color: black;
+        &:hover{
+          background: #dc3545;
+          color: white !important;
+        }
+      }
+    }
+  }
+  form{
+    margin-left: 300px;
+
+    .btn{
+      background-color: #0C0B4F;
+      color: white;
+
+      &:hover {
+        background-color: #0D26EC;
+        transition:all 300ms ease ;
+        transform: scale(1.1);
+      }
+
+    }
+  }
+}
+
+.section-1{
+  background-image: linear-gradient(to bottom,
+          rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%),url("../assets/img/miyunk8.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 230px;
+
+  h1{
+    font-size: 5rem;
+  }
+}
+
+.section-2{
+  .col-left{
+    background-image: url("../assets/img/INTERIOR.jpg");
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+      background: white;
+      opacity: 0.6;
+      width: auto;
+      img{
+        display: block;
+        z-index: 999;
+      }
+    }
+  }
+}
+
+.section-3{
+  div{
+    background-image: linear-gradient(to bottom,
+            rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%),url("../assets/img/carro2-1.jpg");
+    height: 180px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border:3px solid black;
+    p{
+      font-weight: 600;
+    }
+  }
+
+  p{
+    color: #0D43F4;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
