@@ -47,5 +47,14 @@ function activeYears (){
         console.log(year_i)
     }
 }
+
+function addListCars (){
+    let listCars = document.getElementById('cars');
+    for (let i = 0; i < dataCars.length; i++) {
+        listCars.innerHTML += `<option value="${dataCars[i]}">${dataCars[i]}</option>`;
+    }
+}
+
 activeYears();
+addListCars();
 

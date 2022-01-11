@@ -42,9 +42,25 @@
 }
 
 .section-1{
+
   .carousel{
-    .carousel-item-1{
-      background-image:linear-gradient(to bottom, rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%), url("../assets/img/car-crash-1.jpg");
+    .carousel-item-1,{
+      width: 100%;
+      height: 70vh;
+      background-image:linear-gradient(to bottom,
+              rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%), url("../assets/img/car-crash-1.jpg");
+      background-position: center center;
+      background-size: cover;
+
+      img{
+        display: block;
+      }
+    }
+    .carousel-item-2,{
+      width: 100%;
+      height: 70vh;
+      background-image:linear-gradient(to bottom,
+              rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%), url("../assets/img/miyunk6-p5ofry8gcefxnyul22yz0ca6azbdpjewx393cgd6sg.jpg");
       background-position: center center;
       background-size: cover;
 
@@ -55,7 +71,55 @@
   }
 }
 
+.section-3{
+  background-image: linear-gradient(to bottom,
+          rgba(12, 12, 12, 0.46) 25%, rgba(65, 66, 70, 0.61) 100%),url("../assets/img/carro2.jpg");
+  color: white;
+}
 
+.section-4{
+  .form-contact{
+
+    background-image: linear-gradient(to bottom,
+            rgba(2, 30, 136, 0.46) 25%, rgba(30, 46, 108, 0.61) 100%),
+            url("../assets/img/slider.jpg");
+    color: white;
+
+    select{
+      width: 100%;
+    }
+
+    label{
+      font-weight: 500;
+    }
+  }
+}
+
+.section-5{
+  .container-jvc{
+    height: 60vh;
+    background-image: linear-gradient(to bottom,
+            rgba(12, 12, 12, 0.68) 25%, rgba(65, 66, 70, 0.61) 100%),
+    url("../assets/img/car5.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+footer{
+  background-color: #0B0E1B;
+;
+}
 
 
 
