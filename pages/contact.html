@@ -2,9 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact US</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/stylesContact.css">
+
 </head>
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/We-buy-junk-cars-JVC-1024x559.png" alt="" width="220" height="90">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link fw-bold rounded" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold  rounded" href="./about-us.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold rounded" href="./services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold rounded" href="./gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item bg-danger rounded">
+                            <a class="nav-link fw-bold text-white rounded" href="./contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn" type="submit">
+                            <i class="fas fa-phone-alt"></i>
+                            Call Now!
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="d-flex align-items-center justify-content-center section-1 container-fluid">
+            <h1 class="text-white text-center">CONTACT US</h1>
+        </section>
+
+        <section class="section-2 container-fluid">
+            <div class="row">
+                <div class="col my-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73754.63312306676!2d-96.78289448347854!3d32.764767907290086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20Texas%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sni!4v1641938407480!5m2!1ses-419!2sni"
+                            width="600" height="450"
+                            style="border:0;" allowfullscreen=""
+                            loading="lazy">
+                    </iframe>
+                </div>
+                <div class="col">
+                    <form class="form-contact ">
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">FIRST NAME</label>
+                            <input type="text" class="form-control" name="firstname" id="firstname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">EMAIL</label>
+                            <input type="email" name="email" class="form-control" id="email" >
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-outline-light mb-1">CONTACT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <div class="row">
+                <div class="col"><i class="fas fa-phone-alt"></i>+1 -214-541-8274</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </section>
+
+    </main>
 
 </body>
 </html>
